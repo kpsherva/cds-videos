@@ -67,7 +67,7 @@ for name, reqs in extras_require.items():
 
 # Do not include in all requirement
 extras_require['xrootd'] = [
-    'invenio-xrootd>=1.0.0a4',
+    'invenio-xrootd>=1.0.0a4,<2.0.0',
     'xrootdpyfs>=0.1.5',
 ]
 
